@@ -15,7 +15,7 @@ function App() {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     {/* =====BOX ICONS===== */}
     <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
-    <title>Portfolio website complete</title>
+    <title>indigo rebirth</title>
     {/*===== HEADER =====*/}
     <header className="l-header">
       <nav className="nav bd-grid">
