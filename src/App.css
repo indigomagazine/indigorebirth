@@ -311,10 +311,21 @@ img {
 .skills__subtitle {
   padding: 5rem 1rem;
   text-align: center;
+  font-size: 1.2rem;
+
+  color: #ffffff;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.8;
+
 }
 
 .skills__text {
-  margin-bottom: var(--mb-4);
+  margin-left: var(--mb-2);
+  margin-right: var(--mb-2);
+  padding: 40px;
 }
 
 .skills__data {
@@ -546,6 +557,10 @@ img {
   .skills__container {
     align-items: center;
     text-align: initial;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    padding: 20px;
+    color: white;
   }
   .work__container {
     grid-template-columns: repeat(2, 1fr);
