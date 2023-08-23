@@ -2,6 +2,7 @@ import './App.css';
 import background from "./img/bg.png";
 import life from "./img/life.png";
 import human from "./img/human.png";
+import life1 from "./img/life1.png";
 
 
 
@@ -61,52 +62,148 @@ function App() {
       <section className="about section " id="about">
         <img src ={life} alt="" className="life-img"/>
         <div className="about__container bd-grid">
-          <div className="about__img">
-            <img src="assets/img/about.jpg" alt="" />
-          </div>
           <div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at mauris vel leo commodo pulvinar id sed ex. Nunc luctus pharetra molestie. Proin sodales viverra arcu at rhoncus. Phasellus commodo magna augue, in consectetur nisl cursus a. Proin eget massa non quam accumsan cursus. Praesent convallis eleifend mi, ac finibus urna molestie a. Etiam imperdiet ultricies nunc in lacinia. Sed a dolor lacinia, mattis mauris sit amet, euismod dui. Sed rhoncus ante quis purus facilisis, at ultrices dolor venenatis. Sed porttitor, metus id porta fermentum, tortor lectus mattis ante, a accumsan quam lacus quis lectus. Duis justo dolor, porttitor non placerat a, porttitor id ante.
+          <p className="about__subtitle">
+              by Saee Joshi
+              <br/>
+              photo: Keon Ohimai
+              <br/>
+              photo: Katheryn Ho
+              <br/>
+              graphic: Victoria Bruno
+            </p>
 
-              Sed lectus tellus, rhoncus euismod sapien pulvinar, porttitor placerat nunc. Cras non orci sollicitudin neque pulvinar tincidunt. Maecenas pharetra velit odio, at finibus tortor laoreet ut. In venenatis ornare ex eu finibus. Vivamus at ante aliquam, aliquam ipsum at, venenatis massa. Suspendisse erat dui, faucibus id mi sed, porttitor tincidunt velit. Ut aliquet, orci in dapibus varius, est nisi vehicula dolor, vitae tempor orci eros ac sapien.
+            <p className="about__text">
+            <img src ={life1} alt="" className="life-img"/>
 
-              Etiam ut porta ipsum, aliquam varius mauris. Ut nibh augue, aliquet id fringilla et, convallis sit amet urna. Sed quis quam auctor, interdum ipsum eu, dignissim tellus. Vestibulum tristique nibh quis efficitur porta. Integer a dui vel leo fringilla maximus. Nunc sed egestas lorem. Maecenas id nisi cursus, imperdiet tortor non, eleifend orci.
-
-              Nullam ac scelerisque quam, in ultricies purus. Nam viverra eu tortor ac porttitor. Mauris tincidunt lorem et massa imperdiet, non condimentum metus tincidunt. Maecenas commodo, quam non maximus finibus, enim libero dignissim ante, sit amet aliquam lectus ex maximus mauris. Maecenas dignissim condimentum eros, eu imperdiet magna suscipit at. Etiam pharetra ornare est. Etiam ornare mollis felis, sit amet efficitur mi. Nam auctor, elit eu consequat mollis, nisl neque accumsan enim, nec condimentum nisl felis a ipsum. Curabitur quis leo placerat, iaculis urna ut, maximus libero. Donec nisl lectus, feugiat et ultricies eu, mollis sit amet tortor. Vivamus vel lectus et elit pharetra condimentum vitae in ligula. Nam consectetur elit fringilla arcu consectetur, vitae venenatis velit tincidunt. Vivamus pellentesque lacinia dolor sed hendrerit. Nunc vestibulum ligula nec libero semper consequat.
-
-              Nunc mattis, risus ac rutrum convallis, nisl justo egestas orci, vel interdum nibh dolor et tellus. Praesent magna orci, consectetur et risus ac, gravida tincidunt ante. Nulla non lorem et sem lobortis tincidunt sed quis sapien. Proin dapibus neque nec arcu hendrerit sodales. Donec sodales enim at gravida viverra. Ut vestibulum condimentum sapien, vitae finibus nisi ultrices nec. Nulla diam tortor, tempor vitae porta porttitor, vestibulum nec turpis. Nullam vel velit eget dui tristique consectetur id vitae odio. Aenean non commodo ligula. Integer eros neque, commodo quis ullamcorper quis, eleifend eu lorem.
-
-              Nam dignissim erat pharetra, sagittis lacus sed, lobortis eros. Proin facilisis, nisi in dapibus finibus, sapien felis sagittis elit, ac porta elit quam ac massa. Donec ac porttitor purus, a semper lectus. Sed feugiat convallis fringilla. Nulla interdum tincidunt diam auctor bibendum. Nulla vehicula lacus vel tortor cursus cursus. Nulla aliquet dui at tellus dignissim, sed rutrum diam ornare. Mauris faucibus orci non est tempus, nec eleifend mauris tincidunt.
-
-              In in nibh eget nisl pharetra imperdiet. Praesent at tincidunt quam. Maecenas ut imperdiet justo. Praesent nec pellentesque purus, ut semper nulla. Integer fermentum sem vel metus feugiat pretium non quis leo. Aenean rhoncus accumsan posuere. Donec a facilisis quam. Sed euismod massa sed faucibus pellentesque. Aliquam suscipit lobortis justo ut vestibulum. Pellentesque ac massa sit amet dolor fringilla elementum. Vivamus imperdiet dui mauris, eget condimentum turpis pharetra a. Aenean volutpat sodales faucibus. Pellentesque dapibus arcu mi. Maecenas condimentum mauris nisl, ut lacinia urna malesuada non. Vestibulum accumsan vel felis id ultrices.
-
-              Fusce at lectus convallis, bibendum mauris non, ornare ex. Vivamus tristique augue sit amet dolor vestibulum, eget mattis erat viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae maximus felis. Suspendisse condimentum est vitae nisi faucibus tincidunt. Phasellus tempor, tortor eget blandit lacinia, neque eros tincidunt libero, vitae lacinia dolor ex quis nulla. Donec ac pharetra lacus, pharetra pharetra lorem. Suspendisse potenti. Curabitur condimentum molestie leo, a aliquet risus. Donec velit mi, consectetur rhoncus risus rhoncus, sodales pulvinar dui. Ut tortor sem, suscipit vitae lorem id, pellentesque efficitur nunc.
-
-              Integer vitae tempus nisl. Maecenas et risus nec orci ultrices maximus a eget tellus. Integer elementum dolor eget sem dapibus ultricies. Donec lacus ipsum, aliquet a venenatis eget, egestas et mauris. Nunc imperdiet id urna in tempus. Donec id dapibus massa. Integer tristique, mauris nec fermentum pellentesque, ante velit pretium libero, vitae tincidunt arcu eros et turpis. Sed tellus justo, sagittis at volutpat eget, euismod sed metus. Nullam tempus tortor sit amet massa blandit bibendum. Praesent laoreet aliquet lectus ut maximus. Etiam iaculis interdum magna eu pellentesque.
-
-              Integer at ultrices sapien, eu rhoncus massa. Quisque cursus nulla venenatis, viverra risus in, volutpat elit. Cras elementum pulvinar enim consequat mollis. Praesent molestie elit mi, ut pellentesque elit facilisis pellentesque. Suspendisse justo sem, dictum nec molestie at, pulvinar quis erat. Maecenas porta sapien quis neque euismod, scelerisque auctor risus bibendum. Quisque dignissim tempor massa nec viverra. Pellentesque pharetra leo vel malesuada varius. Cras efficitur semper orci. Aenean sed convallis ex, malesuada imperdiet mi. Sed feugiat nibh lectus.
-
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at mauris vel leo commodo pulvinar id sed ex. Nunc luctus pharetra molestie. Proin sodales viverra arcu at rhoncus. Phasellus commodo magna augue, in consectetur nisl cursus a. Proin eget massa non quam accumsan cursus. Praesent convallis eleifend mi, ac finibus urna molestie a. Etiam imperdiet ultricies nunc in lacinia. Sed a dolor lacinia, mattis mauris sit amet, euismod dui. Sed rhoncus ante quis purus facilisis, at ultrices dolor venenatis. Sed porttitor, metus id porta fermentum, tortor lectus mattis ante, a accumsan quam lacus quis lectus. Duis justo dolor, porttitor non placerat a, porttitor id ante.
-
-              Sed lectus tellus, rhoncus euismod sapien pulvinar, porttitor placerat nunc. Cras non orci sollicitudin neque pulvinar tincidunt. Maecenas pharetra velit odio, at finibus tortor laoreet ut. In venenatis ornare ex eu finibus. Vivamus at ante aliquam, aliquam ipsum at, venenatis massa. Suspendisse erat dui, faucibus id mi sed, porttitor tincidunt velit. Ut aliquet, orci in dapibus varius, est nisi vehicula dolor, vitae tempor orci eros ac sapien.
-
-              Etiam ut porta ipsum, aliquam varius mauris. Ut nibh augue, aliquet id fringilla et, convallis sit amet urna. Sed quis quam auctor, interdum ipsum eu, dignissim tellus. Vestibulum tristique nibh quis efficitur porta. Integer a dui vel leo fringilla maximus. Nunc sed egestas lorem. Maecenas id nisi cursus, imperdiet tortor non, eleifend orci.
-
-              Nullam ac scelerisque quam, in ultricies purus. Nam viverra eu tortor ac porttitor. Mauris tincidunt lorem et massa imperdiet, non condimentum metus tincidunt. Maecenas commodo, quam non maximus finibus, enim libero dignissim ante, sit amet aliquam lectus ex maximus mauris. Maecenas dignissim condimentum eros, eu imperdiet magna suscipit at. Etiam pharetra ornare est. Etiam ornare mollis felis, sit amet efficitur mi. Nam auctor, elit eu consequat mollis, nisl neque accumsan enim, nec condimentum nisl felis a ipsum. Curabitur quis leo placerat, iaculis urna ut, maximus libero. Donec nisl lectus, feugiat et ultricies eu, mollis sit amet tortor. Vivamus vel lectus et elit pharetra condimentum vitae in ligula. Nam consectetur elit fringilla arcu consectetur, vitae venenatis velit tincidunt. Vivamus pellentesque lacinia dolor sed hendrerit. Nunc vestibulum ligula nec libero semper consequat.
-
-              Nunc mattis, risus ac rutrum convallis, nisl justo egestas orci, vel interdum nibh dolor et tellus. Praesent magna orci, consectetur et risus ac, gravida tincidunt ante. Nulla non lorem et sem lobortis tincidunt sed quis sapien. Proin dapibus neque nec arcu hendrerit sodales. Donec sodales enim at gravida viverra. Ut vestibulum condimentum sapien, vitae finibus nisi ultrices nec. Nulla diam tortor, tempor vitae porta porttitor, vestibulum nec turpis. Nullam vel velit eget dui tristique consectetur id vitae odio. Aenean non commodo ligula. Integer eros neque, commodo quis ullamcorper quis, eleifend eu lorem.
-
-              Nam dignissim erat pharetra, sagittis lacus sed, lobortis eros. Proin facilisis, nisi in dapibus finibus, sapien felis sagittis elit, ac porta elit quam ac massa. Donec ac porttitor purus, a semper lectus. Sed feugiat convallis fringilla. Nulla interdum tincidunt diam auctor bibendum. Nulla vehicula lacus vel tortor cursus cursus. Nulla aliquet dui at tellus dignissim, sed rutrum diam ornare. Mauris faucibus orci non est tempus, nec eleifend mauris tincidunt.
-
-              In in nibh eget nisl pharetra imperdiet. Praesent at tincidunt quam. Maecenas ut imperdiet justo. Praesent nec pellentesque purus, ut semper nulla. Integer fermentum sem vel metus feugiat pretium non quis leo. Aenean rhoncus accumsan posuere. Donec a facilisis quam. Sed euismod massa sed faucibus pellentesque. Aliquam suscipit lobortis justo ut vestibulum. Pellentesque ac massa sit amet dolor fringilla elementum. Vivamus imperdiet dui mauris, eget condimentum turpis pharetra a. Aenean volutpat sodales faucibus. Pellentesque dapibus arcu mi. Maecenas condimentum mauris nisl, ut lacinia urna malesuada non. Vestibulum accumsan vel felis id ultrices.
-
-              Fusce at lectus convallis, bibendum mauris non, ornare ex. Vivamus tristique augue sit amet dolor vestibulum, eget mattis erat viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae maximus felis. Suspendisse condimentum est vitae nisi faucibus tincidunt. Phasellus tempor, tortor eget blandit lacinia, neque eros tincidunt libero, vitae lacinia dolor ex quis nulla. Donec ac pharetra lacus, pharetra pharetra lorem. Suspendisse potenti. Curabitur condimentum molestie leo, a aliquet risus. Donec velit mi, consectetur rhoncus risus rhoncus, sodales pulvinar dui. Ut tortor sem, suscipit vitae lorem id, pellentesque efficitur nunc.
-
-              Integer vitae tempus nisl. Maecenas et risus nec orci ultrices maximus a eget tellus. Integer elementum dolor eget sem dapibus ultricies. Donec lacus ipsum, aliquet a venenatis eget, egestas et mauris. Nunc imperdiet id urna in tempus. Donec id dapibus massa. Integer tristique, mauris nec fermentum pellentesque, ante velit pretium libero, vitae tincidunt arcu eros et turpis. Sed tellus justo, sagittis at volutpat eget, euismod sed metus. Nullam tempus tortor sit amet massa blandit bibendum. Praesent laoreet aliquet lectus ut maximus. Etiam iaculis interdum magna eu pellentesque.
+            They say fire is the harbinger
+            <br/>
+            of light, warmth, and life.
+            <br/>
+            But they don’t mention it brings with it
+            <br/>
+            endless smoke, death, and strife.
+            <br/><br/>
+            It burns its way through destruction
+            <br/>
+            bright, hot, and loud.
+            <br/>
+            Until it disappears again,
+            <br/>
+            its remains covering us like a shroud.
+            <br/><br/>
+            The sky opens above us,
+            <br/>
+            weeping sorrow down straight.
+            <br/>
+            But it feels like a cruel joke
+            <br/>
+            too little and far too late. 
+            <br/>
+            </p>   
+            <p className="about__text">
+            Our brethren stand around us
+            <br/>
+            as far as the eye can see.
+            <br/>
+            Our limbs stretched to the sky
+            <br/>
+            in a desperate, silent plea. 
+            <br/><br/>
+            The forest stands silent now,
+            <br/>
+            not a sound to be heard.
+            <br/>
+            So full of life once upon a time,
+            <br/>
+            now not a creature stirred. 
+            <br/><br/>
+            The once mighty forest 
+            <br/>
+            now burnt and charred. 
+            <br/>
+            Its once lively inhabitants
+            <br/>
+            now timid and scarred.
+            <br/>
 
             </p>
-          </div>
-        </div>        
+            <p className="about__text">
+            Days crawl by 
+            <br/>
+            with no end in sight. 
+            <br/>
+            Until one day, somehow,
+            <br/>
+            we see a shred of light.
+            <br/><br/>
+            The smoke parts like a curtain
+            <br/>
+            and the sun reaches down. 
+            <br/>
+            And a hint of green emerges
+            <br/>
+            among the sea of black and brown.
+            <br/><br/>
+            It brings with it new hope,
+            <br/>
+            a cautious sign of rebirth. 
+            <br/>
+            Tiny, precious first creatures,
+            <br/>
+            and a reminder of our resilient earth.
+            <br/>
+            </p> 
+
+            <p className='about__text'>
+            Years pass, the burnt forest floor
+            <br/>
+            once more teeming with vitality.
+            <br/>
+            Flowers, butterflies, and lively creeks
+            <br/>
+            free of the fire’s brutality. 
+            <br/><br/>
+            We still stand with skeleton limbs,
+            <br/>
+            waiting for our turn.
+            <br/>
+            Many more years must pass
+            <br/>
+            before the healing for which we yearn.
+            <br/><br/>
+            Death at the hands of the fire
+            <br/>
+            took a mere few hours. 
+            <br/>
+            But healing at the hands of nature
+            <br/>
+            will take decades to replace our bowers.
+            <br/>
+            </p>  
+
+            <p className='about__text'>
+            The forest waits for the next disaster
+            <br/>
+            with wary, bated breath
+            <br/>
+            and an unwavering faith that life carries on,
+            <br/>
+            even after painful death.
+            <br/><br/>
+            If the trees could speak
+            <br/>
+            this is what we would say.
+            <br/>
+            Fire may pull us down, 
+            <br/>
+            but we keep growing
+            <br/>
+            another year, another day.
+            <br/>
+            </p>   
+          </div>                                   
+        </div>
       </section>
 
       {/*===== SKILLS =====*/}
