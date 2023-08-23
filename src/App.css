@@ -218,10 +218,17 @@ img {
   font-family: Playfair Display;
 }
 
-.about__text{
+.rebirth_text{
   color: white;
   font-family: Playfair Display;
   font-size: 1.2rem;
+}
+
+.about__text{
+  color: white;
+  font-family: Playfair Display;
+  font-size: 1rem;
+  display: flex;
 }
 
 .home__social {
@@ -273,14 +280,27 @@ img {
 /* ===== ABOUT =====*/
 .about__container {
   row-gap: 2rem;
-  text-align: center;
 }
 
 .life-img{
   width: 50rem;
   display: block;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
+}
+
+.life-imgsL{
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin-right: 2%;
+}
+
+.life-imgsR{
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin-left: 2%;
 }
 
 .about__subtitle {

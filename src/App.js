@@ -3,8 +3,11 @@ import background from "./img/bg.png";
 import life from "./img/life.png";
 import human from "./img/human.png";
 import life1 from "./img/life1.png";
-
-
+import life2 from "./img/life2.png";
+import life3 from "./img/life3.png";
+import life4 from "./img/life4.png";
+import life5 from "./img/life5.png";
+import life6 from "./img/life6.png";
 
 function App() {
   return (
@@ -42,7 +45,7 @@ function App() {
         <div className="home__data">
           <h1 className="home__title">rebirth</h1>
           <h2 className="home__title2">Editor’s Note:</h2>
-          <p className="about__text">
+          <p className="rebirth_text">
             Indigo was born in January, 2021. Since then, we have come out with approximately 5 issues. Every semester, we gain new momentum, learning from our past obstacles. Each issue Indigo has come out with is a true labor of love of marked by the incredible passion and dedication from students.
             <br/><br/>
             Our growth is a testament to the spirit of community and creativity at UT Dallas.
@@ -74,7 +77,7 @@ function App() {
             </p>
 
             <p className="about__text">
-            <img src ={life1} alt="" className="life-img"/>
+            <img src ={life1} alt="" className="life-imgsL"/>
 
             They say fire is the harbinger
             <br/>
@@ -100,7 +103,8 @@ function App() {
             <br/>
             too little and far too late. 
             <br/>
-            </p>   
+            </p>  
+
             <p className="about__text">
             Our brethren stand around us
             <br/>
@@ -126,9 +130,11 @@ function App() {
             <br/>
             now timid and scarred.
             <br/>
-
+            <img src ={life2} alt="" className="life-imgsR"/>
             </p>
+
             <p className="about__text">
+            <img src ={life3} alt="" className="life-imgsL"/>
             Days crawl by 
             <br/>
             with no end in sight. 
@@ -155,6 +161,8 @@ function App() {
             <br/>
             </p> 
 
+            <img src ={life4} alt="" className="life-img"/>
+
             <p className='about__text'>
             Years pass, the burnt forest floor
             <br/>
@@ -180,6 +188,7 @@ function App() {
             <br/>
             will take decades to replace our bowers.
             <br/>
+            <img src ={life5} alt="" className="life-imgsR"/>
             </p>  
 
             <p className='about__text'>
@@ -201,6 +210,7 @@ function App() {
             <br/>
             another year, another day.
             <br/>
+            <img src ={life6} alt="" className="life-imgsR"/>
             </p>   
           </div>                                   
         </div>
@@ -317,26 +327,7 @@ function App() {
           </div>
         </div>        
       </section>
-      {/*===== WORK =====*/}
-      <section className="work section" id="work">
-        <h2 className="section-title">nothin</h2>
-        <div className="work__container bd-grid">
-          
-         
-          
-          
-        </div>
-      </section>
     </main>
-    {/*===== FOOTER =====*/}
-    <footer className="footer">
-      <p className="footer__title">logo</p>
-      <div className="footer__social">
-        <a href="" className="footer__icon"><i className="bx bxl-linkedin" /></a>
-        <a href="" className="footer__icon"><i className="bx bxl-github" /></a>
-      </div>
-      <p className="footer__copy"></p>
-    </footer>
     {/*===== SCROLL REVEAL =====*/}
     <script src="https://unpkg.com/scrollreveal"></script>
     {/*===== MAIN JS =====*/}
