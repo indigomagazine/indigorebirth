@@ -323,10 +323,27 @@ img {
 /* ===== SKILLS =====*/
 .skills__container {
   margin: auto;
-  border: 1px ridge black;
-  width: fit-content;
+  width: 80%;
   height: auto;
+  font-family: Playfair Display;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px;
 }
+
+.skills_side_img {
+  width: 30%;
+  margin: inherit;
+  margin-left: 7%;
+}
+
+.skills_textimg_container {
+  display: flex; /* Use flexbox */
+  align-items: center; /* Vertically center items */
+  gap: 20px; /* Add some margin between image and text */
+}
+
 
 .skills__subtitle {
   padding: 5rem 1rem;
@@ -398,8 +415,11 @@ img {
 }
 
 .skills__img {
-  border-radius: 0.5rem;
+  flex: 0 0 auto; /* Don't grow, don't shrink, fixed width */
+  margin-left: auto; /* Push the image to the right */
+  margin-right: auto; /* Push the image to the left */
 }
+
 
 /* ===== WORK =====*/
 .work__container {
