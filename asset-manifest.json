@@ -1,18 +1,30 @@
 {
   "files": {
-    "main.css": "/indigorebirth/static/css/main.50c8bf7d.css",
-    "main.js": "/indigorebirth/static/js/main.9924f74e.js",
+    "main.css": "/indigorebirth/static/css/main.451cb96e.css",
+    "main.js": "/indigorebirth/static/js/main.06e35f5a.js",
     "static/js/787.895e3b9c.chunk.js": "/indigorebirth/static/js/787.895e3b9c.chunk.js",
     "static/media/bg.png": "/indigorebirth/static/media/bg.a4c5e53e1780b2ace850.png",
+    "static/media/human_img_two.png": "/indigorebirth/static/media/human_img_two.be7cc490ec329d891341.png",
+    "static/media/life5.png": "/indigorebirth/static/media/life5.fa993dbbd1c25853a15e.png",
+    "static/media/life4.png": "/indigorebirth/static/media/life4.c8ca2576b46cf95ae810.png",
+    "static/media/human_img_three.png": "/indigorebirth/static/media/human_img_three.461e1742d06746a0d283.png",
+    "static/media/life2.png": "/indigorebirth/static/media/life2.e0d86f8d9e7ff7ac3feb.png",
+    "static/media/human_img_four.png": "/indigorebirth/static/media/human_img_four.86e3a8e20da9de653402.png",
+    "static/media/life1.png": "/indigorebirth/static/media/life1.687e13dd13ad014e7a40.png",
+    "static/media/life6.png": "/indigorebirth/static/media/life6.be8b9fbf58125c7586fc.png",
+    "static/media/life3.png": "/indigorebirth/static/media/life3.b3fb46e27748840a9a15.png",
+    "static/media/human0.png": "/indigorebirth/static/media/human0.13239da97b1ea654375e.png",
+    "static/media/human_img_one.png": "/indigorebirth/static/media/human_img_one.cf29f58b814a7cb978da.png",
     "static/media/life.png": "/indigorebirth/static/media/life.eee4fe04a9c91df252e1.png",
     "static/media/human.png": "/indigorebirth/static/media/human.dcca38d6f684f9f09808.png",
+    "static/media/logo.png": "/indigorebirth/static/media/logo.a9f5e27deb87a56e4ed8.png",
     "index.html": "/indigorebirth/index.html",
-    "main.50c8bf7d.css.map": "/indigorebirth/static/css/main.50c8bf7d.css.map",
-    "main.9924f74e.js.map": "/indigorebirth/static/js/main.9924f74e.js.map",
+    "main.451cb96e.css.map": "/indigorebirth/static/css/main.451cb96e.css.map",
+    "main.06e35f5a.js.map": "/indigorebirth/static/js/main.06e35f5a.js.map",
     "787.895e3b9c.chunk.js.map": "/indigorebirth/static/js/787.895e3b9c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50c8bf7d.css",
-    "static/js/main.9924f74e.js"
+    "static/css/main.451cb96e.css",
+    "static/js/main.06e35f5a.js"
   ]
 }
