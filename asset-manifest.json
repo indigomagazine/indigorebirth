@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/indigorebirth/static/css/main.8250e06c.css",
+    "main.css": "/indigorebirth/static/css/main.476f7592.css",
     "main.js": "/indigorebirth/static/js/main.0dce3156.js",
     "static/js/787.895e3b9c.chunk.js": "/indigorebirth/static/js/787.895e3b9c.chunk.js",
     "static/media/bg.png": "/indigorebirth/static/media/bg.a4c5e53e1780b2ace850.png",
@@ -19,12 +19,12 @@
     "static/media/human.png": "/indigorebirth/static/media/human.dcca38d6f684f9f09808.png",
     "static/media/logo.png": "/indigorebirth/static/media/logo.a9f5e27deb87a56e4ed8.png",
     "index.html": "/indigorebirth/index.html",
-    "main.8250e06c.css.map": "/indigorebirth/static/css/main.8250e06c.css.map",
+    "main.476f7592.css.map": "/indigorebirth/static/css/main.476f7592.css.map",
     "main.0dce3156.js.map": "/indigorebirth/static/js/main.0dce3156.js.map",
     "787.895e3b9c.chunk.js.map": "/indigorebirth/static/js/787.895e3b9c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8250e06c.css",
+    "static/css/main.476f7592.css",
     "static/js/main.0dce3156.js"
   ]
 }
