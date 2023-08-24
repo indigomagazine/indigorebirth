@@ -13,12 +13,13 @@ import life3 from "./img/life3.png";
 import life4 from "./img/life4.png";
 import life5 from "./img/life5.png";
 import life6 from "./img/life6.png";
+import logo from "./img/logo.png";
 
 function App() {
   return (
     <div style={{ backgroundImage: `url(${background})`, 
                   backgroundRepeat: "no-repeat",
-                  backgroundSize: "cover"
+                  backgroundSize: "100% auto"
                   }}>
     <meta charSet="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -29,11 +30,12 @@ function App() {
     <header className="l-header">
       <nav className="nav bd-grid">
         <div>
-          <a href="/#" className="nav__logo">logo</a>
+          <a href="/#" className="nav__logo">
+            <img src ={logo} alt="" className="logo-img"/>
+          </a>
         </div>
         <div className="nav__menu" id="nav-menu">
           <ul className="nav__list">
-            <li className="nav__item"><a href="#home" className="nav__link active">Home</a></li>
             <li className="nav__item"><a href="#about" className="nav__link">Life Carries on</a></li>
             <li className="nav__item"><a href="#skills" className="nav__link">HUMAN</a></li>
             <li className="nav__item"><a href="#work" className="nav__link">Indigo</a></li>
@@ -60,8 +62,6 @@ function App() {
             And now from our writers, REBIRTH.
             <br/><br/>
             -Hitha Gudipati, Editor-in-Chief
-
-
           </p>           
         </div>
 
@@ -166,7 +166,7 @@ function App() {
             <br/>
             </p> 
 
-            <img src ={life4} alt="" className="life-img"/>
+            <img src ={life4} alt="" className="life-imgM"/>
 
             <p className='about__text'>
             Years pass, the burnt forest floor
@@ -223,7 +223,7 @@ function App() {
 
       {/*===== SKILLS =====*/}
       <section className="skills section" id="skills">
-        <img src ={human} alt="" className="life-img"/>
+        <img src ={human} alt="" className="hum-img"/>
         <div className="skills__container">  
           <div>
             <p className="skills__subtitle">
@@ -235,9 +235,8 @@ function App() {
             <br/>
             graphic: Victoria Bruno
             </p>
-
             
-            <img src ={human0} alt="" className="life-img"/>
+            <img src ={human0} alt="" className="hum-imgM"/>
             <p className="skills__text">
             It was a fairly simple procedure, the doctors said. Rewire the circuits that made up her hardware, connect them to a living heart and living brain - not unlike how a defibrillator revives a silent heart. The cells would come alive, stitching together the missing parts of her body to fill in whatever would come next. The complicated part was procuring the heart and brain. But Reese had ways of getting into places humans couldn’t. And she wasn’t damned by the ethics of human guilt either. Perhaps that would change afterward. Reese didn't mind that sacrifice though. It would surely be worth it.
             </p>
@@ -269,11 +268,11 @@ function App() {
             Her friends called it greed. That hunger for knowledge. Maybe it ran too deep. So what? Is that not what makes us humans - to thirst for more and seek after it? Her request was not unreasonable or ethically ambiguous. It was as natural as the big bang that created this earth and the leaves from which water drizzled onto her skin on a rainy day. To be human was to want to know, but apparently not to actually know. Angela couldn't live without doing something about it; she had to take matters into her own hands.
             </p>
             
-            <div className='skills_textimg_container'>
+            <div className='skills_textimg_container2'>
               <p className="skills__text">
               What started as a debate in speech class blossomed into deeper consideration, but hushed away from her family and friends’ disapproval and judgment. She knew they’d tell her she was being reckless, and that she should think through it carefully. Angela had thought about it, and quite deeply, and so that’s how it came to entirely overwhelm her. She needed a refresh, to rise to her full potential. This would be that rebirth.
               </p>
-              <img src={human_img_three} alt="" className="skills_side_img"/>
+              <img src={human_img_three} alt="" className="skills_side_img2"/>
             </div>
 
             <img src={human_img_four} alt="" className="skills__img"/>
