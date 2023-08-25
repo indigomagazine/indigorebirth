@@ -629,7 +629,7 @@ img {
     padding-top: 0;
   }
   .nav__item {
-    margin-left: var(--mb-6);
+    margin-left: 1rem;
     margin-bottom: 0;
   }
   .nav__toggle {

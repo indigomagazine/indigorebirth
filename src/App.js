@@ -19,7 +19,7 @@ function App() {
   return (
     <div style={{ backgroundImage: `url(${background})`, 
                   backgroundRepeat: "no-repeat",
-                  backgroundSize: "150% auto"
+                  backgroundSize: "152% auto"
                   }}>
     <meta charSet="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
