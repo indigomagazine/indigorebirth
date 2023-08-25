@@ -10,7 +10,7 @@
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
   --hue-color: 224;
-  --first-color: hsl(var(--hue-color), 89%, 60%);
+  --first-color: white;
   --second-color: hsl(var(--hue-color), 56%, 12%);
   /*===== Fuente y tipografia =====*/
   --body-font: "Poppins", sans-serif;
@@ -28,7 +28,7 @@
   --z-fixed: 100;
 }
 
-@media screen and (min-width: 968px) {
+@media screen and (min-width: 0px) {
   :root {
     --big-font-size: 3.5rem;
     --h2-font-size: 2rem;
@@ -138,7 +138,7 @@ img {
   font-weight: var(--font-semi);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 0px) {
   .nav__menu {
     position: fixed;
     top: var(--header-height);
@@ -606,7 +606,7 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 0px) {
   body {
     margin: 0;
   }

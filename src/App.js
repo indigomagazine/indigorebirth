@@ -19,7 +19,7 @@ function App() {
   return (
     <div style={{ backgroundImage: `url(${background})`, 
                   backgroundRepeat: "no-repeat",
-                  backgroundSize: "100% auto"
+                  backgroundSize: "150% auto"
                   }}>
     <meta charSet="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -30,7 +30,7 @@ function App() {
     <header className="l-header">
       <nav className="nav bd-grid">
         <div>
-          <a href="/#" className="nav__logo">
+          <a href="https://indigomagazine.github.io/indigorebirth/" className="nav__logo">
             <img src ={logo} alt="" className="logo-img"/>
           </a>
         </div>
@@ -38,11 +38,8 @@ function App() {
           <ul className="nav__list">
             <li className="nav__item"><a href="#about" className="nav__link">Life Carries on</a></li>
             <li className="nav__item"><a href="#skills" className="nav__link">HUMAN</a></li>
-            <li className="nav__item"><a href="#work" className="nav__link">Indigo</a></li>
+            <li className="nav__item"><a href="https://indigomagazine.github.io/indigomagazine/" className="nav__link">Indigo</a></li>
           </ul>
-        </div>
-        <div className="nav__toggle" id="nav-toggle">
-          <i className="bx bx-menu"/>
         </div>
       </nav>
     </header>
